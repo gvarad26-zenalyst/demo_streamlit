@@ -13,7 +13,7 @@ def main():
         
         # Launch the Streamlit app
         print("📊 Starting Excel Analysis Dashboard...")
-        print("🔗 API Base URL: http://13.60.4.11:8006")
+        print("🔗 API Base URL: http://your-api-server:8006")
         print("📱 The app will open in your default browser")
         print("=" * 50)
         

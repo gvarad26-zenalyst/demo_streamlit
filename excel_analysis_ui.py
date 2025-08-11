@@ -538,10 +538,10 @@ def main():
             st.error("❌ Could not connect to S3. Please check your credentials in config.env")
             st.info("📋 Required environment variables:")
             st.code("""
-S3_BUCKET_NAME=final-json-report
+S3_BUCKET_NAME=your-bucket-name
 AWS_ACCESS_KEY_ID=your_access_key
 AWS_SECRET_ACCESS_KEY=your_secret_key
-AWS_REGION=us-east-2
+AWS_REGION=your-aws-region
             """)
         else:
             st.success("✅ Connected to S3 successfully!")
@@ -694,7 +694,7 @@ AWS_REGION=us-east-2
         """
         <div style='text-align: center; color: #666; padding: 20px;'>
             📊 Excel Analysis Dashboard | LLM-powered analysis with maximum parallel processing<br>
-            🔗 API: http://13.60.4.11:8006 | 🚀 Built with Streamlit
+            🔗 API: http://your-api-server:8006 | 🚀 Built with Streamlit
         </div>
         """, 
         unsafe_allow_html=True
