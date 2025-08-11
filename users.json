@@ -1,0 +1,27 @@
+{
+  "varad": {
+    "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "role": "investee",
+    "full_name": "v",
+    "email": "varad.g@test.ai",
+    "client_id": "IVE_0A36CA_20250811",
+    "created_at": "2025-08-11T13:13:51.769924",
+    "last_login": null
+  },
+  "varadg": {
+    "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+    "role": "investee",
+    "full_name": "Varadg",
+    "client_id": "IVE_4FD974_20250811",
+    "created_at": "2025-08-11T13:23:58.899084",
+    "last_login": "2025-08-11T15:12:09.475307"
+  },
+  "vg": {
+    "password": "8bb0cf6eb9b17d0f7d22b456f121257dc1254e1f01665370476383ea776df414",
+    "role": "investor",
+    "full_name": "Vg",
+    "client_id": "INV_181523_20250811",
+    "created_at": "2025-08-11T14:50:00.251600",
+    "last_login": "2025-08-11T14:50:07.896409"
+  }
+}
