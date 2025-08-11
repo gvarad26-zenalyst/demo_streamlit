@@ -12,6 +12,11 @@ from plotly.subplots import make_subplots
 import numpy as np
 from auth import check_authentication, show_login_page, logout_user, get_current_user, get_current_client_id
 from s3_data_visualizer import S3DataVisualizer
+import os
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv('config.env')
 
 # Configure Streamlit page
 st.set_page_config(
@@ -22,7 +27,7 @@ st.set_page_config(
 )
 
 # API Configuration
-API_BASE_URL = "http://13.60.4.11:8006"
+API_BASE_URL = os.getenv('API_BASE_URL', 'http://localhost:8006')
 
 class ExcelAnalysisAPI:
     def __init__(self, base_url: str):
