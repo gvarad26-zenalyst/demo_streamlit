@@ -543,10 +543,10 @@ def main():
             st.error("❌ Could not connect to S3. Please check your credentials in config.env")
             st.info("📋 Required environment variables:")
             st.code("""
-S3_BUCKET_NAME=your-bucket-name
-AWS_ACCESS_KEY_ID=your_access_key
-AWS_SECRET_ACCESS_KEY=your_secret_key
-AWS_REGION=your-aws-region
+            S3_BUCKET_NAME=your-bucket-name
+            AWS_ACCESS_KEY_ID=your_access_key
+            AWS_SECRET_ACCESS_KEY=your_secret_key
+            AWS_REGION=your-aws-region
             """)
         else:
             st.success("✅ Connected to S3 successfully!")
