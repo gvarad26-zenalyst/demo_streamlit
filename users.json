@@ -14,7 +14,7 @@
     "full_name": "Varadg",
     "client_id": "IVE_4FD974_20250811",
     "created_at": "2025-08-11T13:23:58.899084",
-    "last_login": "2025-08-11T15:12:09.475307"
+    "last_login": "2025-08-11T16:02:50.944838"
   },
   "vg": {
     "password": "8bb0cf6eb9b17d0f7d22b456f121257dc1254e1f01665370476383ea776df414",
@@ -23,5 +23,13 @@
     "client_id": "INV_181523_20250811",
     "created_at": "2025-08-11T14:50:00.251600",
     "last_login": "2025-08-11T14:50:07.896409"
+  },
+  "shubham": {
+    "password": "8bb0cf6eb9b17d0f7d22b456f121257dc1254e1f01665370476383ea776df414",
+    "role": "investee",
+    "full_name": "Shubham",
+    "client_id": "IVE_3B6BEB_20250811",
+    "created_at": "2025-08-11T16:05:25.529742",
+    "last_login": "2025-08-11T16:05:25.552741"
   }
 }
